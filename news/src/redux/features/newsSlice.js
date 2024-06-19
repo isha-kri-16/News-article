@@ -8,7 +8,8 @@ const initialState = {
   totalResults: 0,          
 };
 
-const apiKey = "a1813f3ce83349d2a8c2a21f106bd6a1"; 
+// const apiKey = "a1813f3ce83349d2a8c2a21f106bd6a1"; 
+const apiKey = "a0e209b9d2d84f999e65495b9eb4365f"
 const pageSize = 10; 
 
 export const fetchNews = createAsyncThunk(
