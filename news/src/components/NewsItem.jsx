@@ -10,7 +10,6 @@ function NewsItem({ title, description, src, url }) {
                     <p className="card-text" style={{ color: 'black' }} >{description ? description.slice(0, 90) : "News is a report of a current event. it is infomation about something that has just happened. "}</p>
                     <a href={url} className="btn btn-primary">Read More </a>
                 </div>
-                like
             </div>
         </>
     )
